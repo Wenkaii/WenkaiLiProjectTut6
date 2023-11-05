@@ -1,7 +1,7 @@
 let resizeScaleX;
 let resizeScaleY;
 let resizeScale;
-
+let showAll = false;
 //there are two kinds of rings
 //they are formed by the small shapes in the large circles
 class ringCreater{
