@@ -270,57 +270,57 @@ let mouseXAdjusted = mouseX / resizeScale;
 let mouseYAdjusted = mouseY / resizeScale;
 
  // Circle 1 Row 1
-  if (dist(mouseXAdjusted, mouseYAdjusted, 230, 230) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 230, 230) < 200 || showAll) {
     drawCircle1Row1();
   }
 
   // Circle 2 Row 1
-  if (dist(mouseXAdjusted, mouseYAdjusted, 640, 80) < 200) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 640, 80) < 200|| showAll) {
     drawCircle2Row1();
   }
 
   // Circle 3 Row 1
-  if (dist(mouseXAdjusted, mouseYAdjusted, 1050, -70) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 1050, -70) < 200|| showAll) {
     drawCircle3Row1();
   }
 
   // Circle 1 Row 2
-  if (dist(mouseXAdjusted, mouseYAdjusted, 155, 660) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 155, 660) < 200|| showAll) {
     drawCircle1Row2();
   }
 
   // Circle 2 Row 2
-  if (dist(mouseXAdjusted, mouseYAdjusted, 565, 510) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 565, 510) < 200|| showAll) {
     drawCircle2Row2();
   }
 
   // Circle 3 Row 2
-  if (dist(mouseXAdjusted, mouseYAdjusted, 975, 360) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 975, 360) < 200|| showAll) {
     drawCircle3Row2();
   }
 
   // Circle 4 Row 2
-  if (dist(mouseXAdjusted, mouseYAdjusted, 1385, 210) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 1385, 210) < 200|| showAll) {
     drawCircle4Row2();
   }
 
   // Circle 1 Row 3
-  if (dist(mouseXAdjusted, mouseYAdjusted, 490, 940) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 490, 940) < 200|| showAll) {
     drawCircle1Row3();
   }
 
   // Circle 2 Row 3
-  if (dist(mouseXAdjusted, mouseYAdjusted, 900, 790) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 900, 790) < 200|| showAll) {
     drawCircle2Row3();
   }
 
   // Circle 3 Row 3
-  if (dist(mouseXAdjusted, mouseYAdjusted, 1310, 640) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 1310, 640) < 200|| showAll) {
     drawCircle3Row3();
   }
 
   // Circle 4 Row 3
-  if (dist(mouseXAdjusted, mouseYAdjusted, 1720, 490) < 200 ) {
+  if (dist(mouseXAdjusted, mouseYAdjusted, 1720, 490) < 200|| showAll) {
     drawCircle4Row3();
   }
   drawChains();
