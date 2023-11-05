@@ -252,7 +252,6 @@ function drawCircle4Row3(){
   ringCreater1.drawInnerRing();
 }
 
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
@@ -260,8 +259,8 @@ function setup() {
 }
 
 function draw() {
-  resizeScaleX = windowWidth/1665;
-  resizeScaleY = windowHeight/900;
+  resizeScaleX = windowWidth / 1665;
+  resizeScaleY = windowHeight / 900;
   resizeScale = min(resizeScaleX, resizeScaleY);
 
   background(250, 220, 180);
