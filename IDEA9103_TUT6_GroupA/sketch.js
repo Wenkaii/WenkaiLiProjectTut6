@@ -282,6 +282,17 @@ function draw() {
 
   drawChains();
 }
+function isMouseOverCircle(centerX, centerY, radius) {
+  const dx = mouseX - centerX;
+  const dy = mouseY - centerY;
+  return dx * dx + dy * dy <= radius * radius;
+}
+function keyPressed() {
+  if (key === 'a' || key === 'A') {
+    showAll = !showAll; // Toggle visibility of all graphics
+  }
+}
+
 
 function windowResized(){
   //resizeCanvas(1665*resizeScale, 900*resizeScale);
