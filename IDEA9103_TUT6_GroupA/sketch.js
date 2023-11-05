@@ -264,6 +264,10 @@ function draw() {
   resizeScale = min(resizeScaleX, resizeScaleY);
 
   background(250, 220, 180);
+  
+// The mouse coordinate adjusted to the resizeScale
+let mouseXAdjusted = mouseX / resizeScale;
+let mouseYAdjusted = mouseY / resizeScale;
 
   drawCircle1Row1();
   drawCircle2Row1();
